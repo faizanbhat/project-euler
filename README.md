@@ -9,3 +9,4 @@
 7. What is the 10001st prime number?
 8. Find the thirteen adjacent digits in the 1000-digit number that have the greatest product. What is the value of this product?
 9. There exists exactly one Pythagorean triplet for which a + b + c = 1000. Find the product abc.
+10. Find the sum of all the primes below two million.
