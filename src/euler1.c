@@ -39,7 +39,6 @@ int main(){
     int sum = sum_of_multiples_of_num_below_ceil(3, n) + sum_of_multiples_of_num_below_ceil(5, n) - sum_of_multiples_of_num_below_ceil(15, n);
     
     printf("Result: %d\n", sum);
-    return sum;
     
 //    End solution
     end = clock();

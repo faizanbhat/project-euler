@@ -36,7 +36,6 @@ int main(){
     }
     
     printf("Result: %d\n",num);
-    printf("Took %d iterations\n",count);
     
 //    End solution
     end = clock();

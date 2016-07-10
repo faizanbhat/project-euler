@@ -7,11 +7,11 @@
 #include <time.h>
 #include <math.h>
 
-int64_t largest_prime_factor(int64_t num){
-    int64_t n = num;
-    int64_t divisor=2;
-    int64_t factor=0;
-    int64_t remainder=1;
+long long largest_prime_factor(long long num){
+    long long n = num;
+    long long divisor=2;
+    long long factor=0;
+    long long remainder=1;
     
     while (1){
         factor = n/divisor;
@@ -41,7 +41,7 @@ int main(){
     begin=clock();
 //  Begin code
     
-    int64_t num = 600851475143;
+    long long num = 600851475143;
     printf("Result:%lld \n", largest_prime_factor(num));
 
     

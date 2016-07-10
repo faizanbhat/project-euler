@@ -79,7 +79,7 @@ int main(){
         }
     }
     
-    printf("%d\n",result);
+    printf("%d\n",greatest_product);
     
     //    End solution
     end = clock();

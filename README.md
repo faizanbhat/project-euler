@@ -10,3 +10,4 @@
 8. Find the thirteen adjacent digits in the 1000-digit number that have the greatest product. What is the value of this product?
 9. There exists exactly one Pythagorean triplet for which a + b + c = 1000. Find the product abc.
 10. Find the sum of all the primes below two million.
+11. What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20×20 grid?
