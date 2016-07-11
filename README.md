@@ -11,3 +11,4 @@
 9. There exists exactly one Pythagorean triplet for which a + b + c = 1000. Find the product abc.
 10. Find the sum of all the primes below two million.
 11. What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20×20 grid?
+12. What is the value of the first triangle number to have over five hundred divisors?
