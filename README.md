@@ -13,3 +13,4 @@
 11. What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20×20 grid?
 12. What is the value of the first triangle number to have over five hundred divisors?
 13. Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.
+14. Which starting number, under one million, produces the longest Collatz sequence?
