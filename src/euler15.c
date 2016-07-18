@@ -1,6 +1,6 @@
 /*
  Euler 15
-How many lattice paths are there through a 20x20 grid
+How many lattice paths are there through a 20x20 grid?
  */
 
 #include <stdio.h>

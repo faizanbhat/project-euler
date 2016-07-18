@@ -15,4 +15,5 @@
 13. Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.
 14. Which starting number, under one million, produces the longest Collatz sequence?
 15. How many lattice paths are there through a 20x20 grid?
+16. What is the sum of the digits of the number 21000?
 
