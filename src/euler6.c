@@ -5,7 +5,7 @@ Find the difference between the sum of the squares of the first one hundred natu
 
 #include <stdio.h>
 #include <time.h>
-
+#define first_n 100
 int sum_of_squares(int nums){
     
     return (nums*(nums+1)*(2*nums+1))/6;
@@ -22,8 +22,7 @@ int main(){
     begin = clock();
 //  Begin solution  
     
-    int nums = 100;
-    printf("%d\n",sum_squared(nums)-sum_of_squares(nums));
+    printf("%d\n",sum_squared(first_n)-sum_of_squares(first_n));
     
 //  End solution
     end = clock();

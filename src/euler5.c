@@ -21,11 +21,9 @@ int main(){
     int base = 19*17*13*7*5*3*2;
     int num = base;
     int multiply_by = 1;
-    int count = 0;
     
     while (1){
         
-        count = count+1;
         if (num%11==0 & num%12==0 & num%13==0 & num%14==0 & num%15==0 & num%16==0 & num%17==0 & num%18==0 & num%19==0 & num%20==0){
             break;
         }

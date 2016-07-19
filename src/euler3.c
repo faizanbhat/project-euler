@@ -6,12 +6,12 @@
 #include <stdio.h>
 #include <time.h>
 #include <math.h>
+#define given_number 600851475143
 
-long long largest_prime_factor(long long num){
-    long long n = num;
-    long long divisor=2;
-    long long factor=0;
-    long long remainder=1;
+long largest_prime_factor(long n){
+    long divisor=2;
+    long factor=0;
+    long remainder=1;
     
     while (1){
         factor = n/divisor;
@@ -41,8 +41,7 @@ int main(){
     begin=clock();
 //  Begin code
     
-    long long num = 600851475143;
-    printf("Result:%lld \n", largest_prime_factor(num));
+    printf("Result:%ld \n", largest_prime_factor(given_number));
 
     
 //  End code

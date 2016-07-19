@@ -8,7 +8,7 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 
 typedef int bool;
 
-bool is_palindrome(int *num_org);
+bool is_palindrome(int num_org);
 
 int main(){
     clock_t begin, end;
@@ -22,7 +22,7 @@ int main(){
     for (int i=999;i>99;i--){
         for (int j=999;j>99;j--){
             prod = i*j;
-            if(is_palindrome(&prod)){
+            if(is_palindrome(prod)){
                 if(prod>result) result = prod;
             }
         }
@@ -38,9 +38,9 @@ int main(){
     return 0;
 }
 
-int is_palindrome(int* num_org){
+int is_palindrome(int num_org){
     
-    int num = *num_org;
+    int num = num_org;
     
     int reverse = 0;
     
@@ -50,7 +50,7 @@ int is_palindrome(int* num_org){
         num = num/10;
     }
     
-    if (reverse==*num_org){
+    if (reverse==num_org){
         return 1;
     }
     

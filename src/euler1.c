@@ -6,6 +6,7 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 #include <stdio.h>
 #include <time.h>
 #include <math.h>
+#define maxn 1000 
 
 int brute_force(n){ 
     int sum=0;
@@ -33,10 +34,8 @@ int main(){
     begin = clock();
 //  Begin solution 
     
-    int n=1000;
-    
     //  Add sum of multiples of 3, 5, and subtract multiples of 15 due to double counting
-    int sum = sum_of_multiples_of_num_below_ceil(3, n) + sum_of_multiples_of_num_below_ceil(5, n) - sum_of_multiples_of_num_below_ceil(15, n);
+    int sum = sum_of_multiples_of_num_below_ceil(3, maxn) + sum_of_multiples_of_num_below_ceil(5, maxn) - sum_of_multiples_of_num_below_ceil(15, maxn);
     
     printf("Result: %d\n", sum);
     

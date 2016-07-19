@@ -8,7 +8,6 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 #include <time.h>
 
 //    fib_n returns the nth number in the Fibonnaci seq via recursion
-//    Note: If hackerrank is to be believed, Iteration runs faster here than recursion for large numbers
 int fib_n(int n){ 
     if (n == 0) return 0;
     else if (n == 1) return 1;

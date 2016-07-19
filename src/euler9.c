@@ -21,7 +21,7 @@ int main(){
     begin = clock();
     //  Begin solution
     
-    int a,b,c;
+    short a,b,c;
     int result=0;
     
     // Loop through possible values of a, starting from 1 and ending at 1000

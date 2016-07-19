@@ -8,6 +8,7 @@ What is the 10001st prime number?
 #include <stdio.h>
 #include <time.h>
 #include <math.h>
+#define n 10001
 
 int get_sieve_size(n_primes){
     
@@ -22,8 +23,6 @@ int main(){
     begin = clock();
 //  Begin solution
             
-    int n = 10001;
-
     // Create sieve and fill it up
     int sieve_size = get_sieve_size(n);
     int sieve[sieve_size];
