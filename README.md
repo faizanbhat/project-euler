@@ -16,4 +16,5 @@
 14. Which starting number, under one million, produces the longest Collatz sequence?
 15. How many lattice paths are there through a 20x20 grid?
 16. What is the sum of the digits of the number 21000?
+17. If all the numbers from 1 to 1000 (one thousand) inclusive were written out in words, how many letters would be used?
 
