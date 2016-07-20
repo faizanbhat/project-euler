@@ -70,26 +70,18 @@ int r_child_index(int index){
 }
 
 int max_path_sum(int values[], int size){
-    
     int last_row = row_for_index(size-1);
-    
     for (int row = last_row - 1; row > 0; row--){ // Loop through rows, starting with last but one
-    
         int first_col_index = index_for_row_col(row, 1);
         int last_col_index = first_col_index + row - 1;
-        
         for (int i = first_col_index; i <= last_col_index; i++) { // Loop through cols in row
-            
             // For each element, get left and right child, and add max of children to value of element
             int c_1 = l_child_index(i), c_2 = r_child_index(i);
-            
             if (values[c_1] > values[c_2])
-                values[i] += values[c_1];
-            
+                values[i] += values[c_1];       
             else values[i] += values[c_2];
         }
     }
-    
     return values[0];
 }
 
