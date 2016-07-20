@@ -20,3 +20,7 @@
 18. Max Path Sum 1: Find the maximum total from top to bottom of the triangle.
 
 
+- 
+67. Max Path Sum 2: Find the maximum total from top to bottom of the triangle
+
+
