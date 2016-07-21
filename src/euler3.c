@@ -17,7 +17,7 @@ long largest_prime_factor(long n){
         factor = n/divisor;
         remainder = n%divisor;
         
-        if(factor==1&remainder==0){
+        if(factor==1 && remainder==0){
             return divisor;
         }
         

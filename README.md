@@ -15,12 +15,13 @@
 13. Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.
 14. Which starting number, under one million, produces the longest Collatz sequence?
 15. How many lattice paths are there through a 20x20 grid?
-16. What is the sum of the digits of the number 21000?
+16. What is the sum of the digits of the number 2^1000?
 17. If all the numbers from 1 to 1000 (one thousand) inclusive were written out in words, how many letters would be used?
-18. Max Path Sum 1: Find the maximum total from top to bottom of the triangle.
+18. Find the maximum total from top to bottom of the triangle.
+19. How many Sundays fell on the first of the month during the twentieth century (1 Jan 1901 to 31 Dec 2000)?
 
+Out of sequence
 
-Out of sequence:
-No.67- Max Path Sum 2: Find the maximum total from top to bottom of the triangle
+67 - Find the maximum total from top to bottom of the triangle
 
 

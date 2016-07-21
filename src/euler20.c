@@ -1,22 +1,19 @@
 /*
- Euler 16
- What is the sum of the digits of the number 2^1000?
+ Euler 20
+ Find the sum of the digits in the number 100!
  */
 
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
 
-// Python solution: sum(int(x) for x in str(pow(2,1000)))
-// Runs faster than this C implementation
+#define n 1000
 
-#define n 330
-
-void multiply_by_2(char* s) {
+void multiply_by(char* s, int factor) {
     int carry = 0;
     for (int i=n-1; i>=0; i--){
         int digit = s[i] - '0';
-        int product = digit*2 + carry;
+        int product = digit*factor + carry;
         int new_digit = product%10;
         carry = product/10;
         s[i] = new_digit + '0';
@@ -45,10 +42,10 @@ int main(){
     for (int i = 0; i < n; i++)
         prod[i] = '0';
     
-    prod[n-1] =  '2';
+    prod[n-1] =  '1';
     
-    for(int i = 0;i < 999; i++){
-        multiply_by_2(prod);
+    for(int i = 2;i < 100; i++){
+        multiply_by(prod, i);
     }
     
     int result = sum_digits(prod);
