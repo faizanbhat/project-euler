@@ -19,6 +19,9 @@
 17. If all the numbers from 1 to 1000 (one thousand) inclusive were written out in words, how many letters would be used?
 18. Find the maximum total from top to bottom of the triangle.
 19. How many Sundays fell on the first of the month during the twentieth century (1 Jan 1901 to 31 Dec 2000)?
+20. Find the sum of the digits in the number 100!
+21. Evaluate the sum of all the amicable numbers under 10000.
+22. What is the total of all the name scores in the file?
 
 Out of sequence
 
