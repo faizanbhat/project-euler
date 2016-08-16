@@ -1,2 +1,4 @@
 euler-key.md
 a.out
+*.swp
+*.pyc

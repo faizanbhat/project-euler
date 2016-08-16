@@ -22,9 +22,8 @@
 20. Find the sum of the digits in the number 100!
 21. Evaluate the sum of all the amicable numbers under 10000.
 22. What is the total of all the name scores in the file?
+23. Find the sum of all the positive integers which cannot be written as the sum of two abundant numbers.
 
-Out of sequence
-
-67 - Find the maximum total from top to bottom of the triangle
+(67) Find the maximum total from top to bottom of the triangle
 
 

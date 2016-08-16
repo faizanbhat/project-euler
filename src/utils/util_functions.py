@@ -1,3 +1,5 @@
+import math
+
 def get_sieved_primes(limit):
   sieve = range(0, limit)  
   for x in sieve:
@@ -32,3 +34,17 @@ def get_total_divisors(number):
         total_divisors = len(div) * 2
         saved_divisors[number]=total_divisors
         return total_divisors
+        
+def divisors(n):
+    yield 1
+    largest = int(math.sqrt(n)) + 1
+    for i in range(2, largest):
+        if n % i == 0:
+            yield i
+            if i < n / i:
+                yield n / i
+            
+def is_abundant(n):
+    if sum(divisors(n)) > n:
+        return True
+    return False
